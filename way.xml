@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite parallel="false" name="Suite" thread-count ="5">
+
+  <test name="Test1">
+  <parameter name ="browser" value = "chrome"/>
+    <classes>
+      <class name="waytoautomation.Way"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="Test2">
+  <parameter name ="browser" value = "chrome"/>
+    <classes>
+      <class name="tctotal.Samsung"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
